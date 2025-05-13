@@ -1,0 +1,143 @@
+/* style.css */
+
+/* Main font for all text */
+.root {
+    -fx-font-family: "Garamond", "Georgia", "Times New Roman";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f4;
+    -fx-background-radius: 8px;
+}
+
+.text-field {
+    -fx-padding: 8px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #cccccc;
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
+
+/* List View (Task items) */
+.list-cell {
+    -fx-background-color: white;
+    -fx-padding: 8px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #eee;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0.1, 0, 2);
+}
+
+/* Hover effect for list items */
+.list-cell:hover {
+    -fx-background-color: #f5f5f5;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: lightgrey;
+}
+
+/* Heading font */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.dialog-pane {
+    -fx-background-color: #ffffff;
+}
+
+/* Colors */
+.green-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.red-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.blue-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.yellow-button {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: black;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+/* add hover effect */
+.green-button:hover,
+.red-button:hover,
+.blue-button:hover,
+.yellow-button:hover {
+    -fx-opacity: 0.85;
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff;
+    -fx-border-width: 2px;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+}
+
+.task-checkbox {
+    -fx-cursor: hand;
+}
+.task-label {
+    -fx-font-size: 14px;
+}
+
+
+
